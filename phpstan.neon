@@ -1,0 +1,9 @@
+parameters:
+    level: max
+    paths:
+        - Rules
+        - Tests
+        - Fixtures
+
+rules:
+    - Gourab\PHPStan\Rules\NoMagicLiteralAllowedRule
